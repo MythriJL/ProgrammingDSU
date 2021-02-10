@@ -5,7 +5,7 @@ int count23(int *array, int n){
     int count = 0;
     for (int i = 0; i < n; i ++){
         //this checks if the element is  not divisible by both 2 and 3
-        if( array[i]%2 == 0 || array[i]%3 == 0 ){ 
+        if( array[i]%2 == 0 && array[i]%3 == 0 ){ 
             continue;
         }
         if(array[i]%2 == 0 || array[i]%3 == 0){
